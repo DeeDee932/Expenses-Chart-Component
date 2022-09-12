@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta content="" name="description">
+        <meta content="" name="keywords">    
+        <title>Expenses Chart Component</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i">
+        <link rel="icon" type="image/jpg" sizes="225x225" href="./images/icon.jpg">
+    </head>
+    <body>
+        <div class="div"> 
+            <section class="section"> 
+                <div class="balance-div">
+                    <h1 class="account-balance">My balance</h1>
+                    <span><h1 class="amount-div">$921.48</h1></span>
+                </div>   
+                <img class="logo" src="images\logo.svg" alt="Logo">
+            </section>
+           
+            <section class="spending"> 
+                <h1 class="spending-title">Spending - Last 7 days</h1>
+                <div class="chart">
+                    <ul id="bars">
+                        <li>
+                            <div id="bar1">
+                               <span class="tooltiptext">$17.45</span>
+                            </div>
+                            <span>mon</span>
+                        </li>
+                        <li>
+                            <div id="bar2">
+                                <span class="tooltiptext">$34.91</span>
+                            </div>
+                            <span>tue</span>
+                        </li>
+                        <li>
+                            <div id="bar3">
+                                <span class="tooltiptext">$52.36</span>
+                            </div>
+                            <span>wed</span>
+                        </li>
+                        <li>
+                            <div id="bar4">
+                                <span class="tooltiptext">$31.07</span>
+                            </div>
+                            <span>thu</span>
+                        </li>
+                        <li>
+                            <div id="bar5">
+                                <span class="tooltiptext">$23.39</span>
+                            </div>
+                            <span>fri</span>
+                        </li>
+                        <li>
+                            <div id="bar6">
+                                <span class="tooltiptext">$43.28</span>
+                            </div>
+                            <span>sat</span>
+                        </li>
+                        <li>
+                            <div id="bar7">
+                                <span class="tooltiptext">$25.48</span>
+                            </div>
+                            <span>sun</span>
+                        </li>
+                    </ul>
+                </div>
+                <br><br>
+                <hr>
+            
+                <div class="total-this-month">
+                    <h1 class="spending-title-this-month">Total this month</h3>
+                    <h1 id="spending-amount">$478.33</h1>
+                </div>
+            
+                <div class="last-month-data">
+                    <p class="last-month-amount">+2.4%</p>
+                    <p class="last-month-title">from last month</p>
+                </div>
+            </section>
+        </div>
+            
+        <script src="main.js"></script>
+    </body>
+</html>

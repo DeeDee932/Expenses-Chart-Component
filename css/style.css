@@ -1,0 +1,517 @@
+body {
+    background-color: hsl(27, 66%, 92%);
+}
+
+.div{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 70vh;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;    
+}
+
+.section {
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    background-color: black;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 20px;
+    height: 75px;
+    width: 550px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;    
+}
+
+.balance-div {
+    margin: 0;
+    line-height: 0.1;
+    padding-right: 300px;
+}
+
+.amount-div {
+    color: #fff;
+    font-size: 30px;
+}
+
+.logo {
+    padding-right: 30px;
+    height: 65px;
+    width: 80px;
+}
+
+.spending {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 550px;    
+}
+
+.spending-title {
+    text-align: left;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.chart {
+    width: 550px;
+    height: 300px;
+    display: block;
+}
+  
+#bar1 .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left: 45%;
+}
+  
+#bar1:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#bar2 .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left: 45%;
+}
+  
+#bar2:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#bar3 .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left: 45%;
+}
+  
+#bar3:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#bar4 .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left: 45%;
+}
+  
+#bar4:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#bar5 .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left: 45%;
+}
+  
+#bar5:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#bar6 .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left: 45%;
+}
+  
+#bar6:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#bar7 .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left: 45%;
+}
+  
+#bar7:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#bars {
+    color: hsl(10, 79%, 65%);
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#bars li {
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+
+#bars span {
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+    margin-left: -35px;
+}
+
+#bars #bar1 {
+    display: block;
+    background: hsl(10, 79%, 65%);
+    width: 50px;   
+    height: 20%; 
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(206, 13, 39, 0.5);
+    transition: 0.5s;
+    border-radius: 5px;
+    transition-property: background, box-shadow;
+}
+
+#bars #bar2 {
+    display: block;
+    background:  hsl(10, 79%, 65%);
+    width: 50px;   
+    height: 30%; 
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(206, 13, 39, 0.5);
+    transition: 0.5s;
+    border-radius: 5px;
+    transition-property: background, box-shadow;
+}
+
+#bars #bar3 {
+    display: block;
+    background:  hsl(186, 34%, 60%);
+    width: 50px;   
+    height: 50%; 
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 hsl(186, 34%, 60%);
+    transition: 0.5s;
+    border-radius: 5px;
+    transition-property: background, box-shadow;
+}
+
+#bars #bar4 {
+    display: block;
+    background:  hsl(10, 79%, 65%);
+    width: 50px;   
+    height: 28%; 
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(206, 13, 39, 0.5);
+    transition: 0.5s;
+    border-radius: 5px;
+    transition-property: background, box-shadow;
+}
+
+#bars #bar5 {
+    display: block;
+    background:  hsl(10, 79%, 65%);
+    width: 50px;   
+    height: 25%; 
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(206, 13, 39, 0.5);
+    transition: 0.5s;
+    border-radius: 5px;
+    transition-property: background, box-shadow;
+}
+
+#bars #bar6 {
+    display: block;
+    background:  hsl(10, 79%, 65%);
+    width: 50px;   
+    height: 40%; 
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(206, 13, 39, 0.5);
+    transition: 0.5s;
+    border-radius: 5px;
+    transition-property: background, box-shadow;
+}
+
+#bars #bar7 {
+    display: block;
+    background:  hsl(10, 79%, 65%);
+    width: 50px;   
+    height: 27%; 
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 hsl(10, 79%, 65%);
+    transition: 0.5s;
+    border-radius: 5px;
+    transition-property: background, box-shadow;
+}
+
+#bars:hover {
+    cursor: pointer;
+}
+
+#bars #bar1:hover {
+    background: hsl(10, 79%, 65%);
+    box-shadow: 0 0 10px 0 hsl(10, 79%, 65%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    content: attr(data-percentage);
+    opacity: 0.7;
+}
+
+#bars #bar2:hover {
+    background: hsl(10, 79%, 65%);
+    box-shadow: 0 0 10px 0 hsl(10, 79%, 65%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+#bars #bar3:hover {
+    background: hsl(186, 34%, 60%);
+    box-shadow: 0 0 10px 0 rgba(85, 239, 196, 0.5);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+#bars #bar4:hover {
+    background: hsl(10, 79%, 65%);
+    box-shadow: 0 0 10px 0 hsl(10, 79%, 65%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+#bars #bar5:hover {
+    background: hsl(10, 79%, 65%);
+    box-shadow: 0 0 10px 0 hsl(10, 79%, 65%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+#bars #bar6:hover {
+    background: hsl(10, 79%, 65%);
+    box-shadow: 0 0 10px 0 hsl(10, 79%, 65%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+#bars #bar7:hover {
+    background: hsl(10, 79%, 65%);
+    box-shadow: 0 0 10px 0 hsl(10, 79%, 65%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+#bars #bar1:before {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    bottom: 20px;
+    position: relative;
+}
+
+ul span {
+    color: black;
+    opacity: 0.5;
+}
+
+.percentage {
+    color:black;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100%;
+    display: inline-block;
+}
+
+.percentage li {
+    list-style: none;
+    height: 150px;
+    position: absolute;
+    bottom: 145px;
+}
+
+.percentage span {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.total-this-month {
+    display: inline-block;
+    text-align: left;
+}
+
+.spending-title-this-month {
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    opacity: 0.5;
+    
+}
+
+#spending-amount {
+    line-height: .1;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.last-month-data {
+    display: inline-block;
+    line-height: .3;
+    margin-right: 0;
+    margin-left: 230px;
+    color: #fff;
+    text-align: right;
+}
+
+h1 {
+    font-size: 15px;
+    color: #fff;
+}
+
+.last-month-amount {
+    color:black;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.last-month-title {
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.day {
+    display: inline;
+    color: black;
+    text-transform: capitalize;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+

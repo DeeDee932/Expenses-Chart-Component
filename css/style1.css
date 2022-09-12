@@ -1,0 +1,68 @@
+@media screen and (max-width: 500px) {
+    body {
+        display: flex;
+        align-content: center;
+        background-color: lawngreen;
+    }
+
+    .div{
+        margin-top: 150px;
+        margin-bottom: 150px;
+        justify-content: center;    
+    }
+
+    .section {
+        display: flex;
+        justify-content: right;
+        padding-top: 10px;
+        background-color: black;
+        background-color: hsl(10, 79%, 65%);
+        border-radius: 10px;
+        height: 75px;
+        width: 600px;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;    
+    }
+
+    .balance-div {
+        margin: 0;
+        line-height: 0.5;
+        padding-right: 150px;
+    }
+
+    .account-balance {
+        margin-top: 15px;
+        color: #fff;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+
+    .amount-div {
+        margin-left: 15px;
+        color: #fff;
+        font-size: 19px;
+    }
+    
+    .logo {
+        padding-right: 15px;
+        height: 65px;
+        width: 50px;
+    }
+
+    .spending {
+        text-align: center;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 550px;    
+    }
+    
+    .spending-title {
+        text-align: left;
+        color: black;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+}
